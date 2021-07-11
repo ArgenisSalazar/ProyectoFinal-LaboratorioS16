@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Registro de Notas</title>
+    <link rel="stylesheet" href="css/estilo-registro-notas.css">
+</head>
+<body>
+    <div class="container" id="notas">
+        <div class="titulo mb-4">
+            <h1 class="text-center">REGISTRO DE NOTAS</h1>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide mb-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval ="2000">
+                    <img src="img-registro/banner-ma.png" class="d-block w-100" height="80px" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval ="2000">
+                    <img src="img-registro/banner-co.png" class="d-block w-100" height="80px" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval ="2000">
+                    <img src="img-registro/banner-hi.png" class="d-block w-100" height="80px" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval ="2000">
+                    <img src="img-registro/banner-ci.png" class="d-block w-100" height="80px" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval ="2000">
+                    <img src="img-registro/banner-ed.png" class="d-block w-100" height="80px" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval ="2000">
+                    <img src="img-registro/banner-in.png" class="d-block w-100" height="80px" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval ="2000">
+                    <img src="img-registro/banner-ar.png" class="d-block w-100" height="80px" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval ="2000">
+                    <img src="img-registro/banner-va.png" class="d-block w-100" height="80px" alt="...">
+                </div>
+            </div>
+        </div>
+        <form class="row g-3" id="class">
+            <div class="col-md-6">
+              <label for="nombre" class="form-label">Nombre(s) del Alumno:</label>
+              <input type="text" class="form-control" id="nombre" autofocus required placeholder="Ingrese nombre(s) del alumno">
+            </div>
+            <div class="col-md-6">
+              <label for="apellido" class="form-label">Apellidos del Alumno:</label>
+              <input type="text" class="form-control" id="apellido" autofocus required  placeholder="Ingrese apellido(s) del alumno"><br>
+            </div>
+            <div class="col-md-3">
+              <label for="M1" class="form-label">Primer Nota de Matemática:</label>
+              <input type="number" class="form-control" id="M1" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="M2" class="form-label">Segunda Nota de Matemática:</label>
+                <input type="number" class="form-control" id="M2" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="M3" class="form-label">Tercera Nota de Matemática:</label>
+                <input type="number" class="form-control" id="M3" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="M4" class="form-label">Cuarta Nota de Matemática:</label>
+                <input type="number" class="form-control" id="M4" autofocus required placeholder="Ingrese la nota" max="20" min="0"><br>
+            </div>
+            <div class="col-md-3">
+                <label for="C1" class="form-label">Primera Nota de Comunicación:</label>
+                <input type="number" class="form-control" id="C1" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="C2" class="form-label">Segunda Nota de Comunicación:</label>
+                <input type="number" class="form-control" id="C2" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="C3" class="form-label">Tercera Nota de Comunicación:</label>
+                <input type="number" class="form-control" id="C3" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="C4" class="form-label">Cuarta Nota de Comunicación:</label>
+                <input type="number" class="form-control" id="C4" autofocus required placeholder="Ingrese la nota" max="20" min="0"><br>
+            </div>
+            <div class="col-md-3">
+                <label for="H1" class="form-label">Primera Nota de Historia:</label>
+                <input type="number" class="form-control" id="H1" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="H2" class="form-label">Segunda Nota de Historia:</label>
+                <input type="number" class="form-control" id="H2" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="H3" class="form-label">Tercera Nota de Historia:</label>
+                <input type="number" class="form-control" id="H3" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="H4" class="form-label">Cuarta Nota de Historia:<br></label>
+                <input type="number" class="form-control" id="H4" autofocus required placeholder="Ingrese la nota" max="20" min="0"><br>
+            </div>
+            <div class="col-md-3">
+                <label for="Ci1" class="form-label">Primera Nota de Ciencias:</label>
+                <input type="number" class="form-control" id="Ci1" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="Ci2" class="form-label">Segunda Nota de Ciencias:</label>
+                <input type="number" class="form-control" id="Ci2" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="Ci3" class="form-label">Tercera Nota de Ciencias:</label>
+                <input type="number" class="form-control" id="Ci3" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="Ci4" class="form-label">Cuarta Nota de Ciencias:</label>
+                <input type="number" class="form-control" id="Ci4" autofocus required placeholder="Ingrese la nota" max="20" min="0"><br>
+            </div>
+            <div class="col-md-3">
+                <label for="E1" class="form-label">Primera Nota de Educación Física:</label>
+                <input type="number" class="form-control" id="E1" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="E2" class="form-label">Segunda Nota de Educación Física:</label>
+                <input type="number" class="form-control" id="E2" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="E3" class="form-label">Tercera Nota de Educación Física:</label>
+                <input type="number" class="form-control" id="E3" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="E4" class="form-label">Cuarta Nota de Educación Física:</label>
+                <input type="number" class="form-control" id="E4" autofocus required placeholder="Ingrese la nota" max="20" min="0"><br>
+            </div>
+            <div class="col-md-3">
+                <label for="I1" class="form-label">Primera Nota de Inglés:</label>
+                <input type="number" class="form-control" id="I1" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="I2" class="form-label">Segunda Nota Inglés:</label>
+                <input type="number" class="form-control" id="I2" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="I3" class="form-label">Tercera Nota de Inglés:</label>
+                <input type="number" class="form-control" id="I3" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="I4" class="form-label">Cuarta Nota de Inglés:</label>
+                <input type="number" class="form-control" id="I4" autofocus required placeholder="Ingrese la nota" max="20" min="0"><br>
+            </div>
+            <div class="col-md-3">
+                <label for="A1" class="form-label">Primera Nota de Arte y Cultura:</label>
+                <input type="number" class="form-control" id="A1" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="A2" class="form-label">Segunda Nota de Arte y Cultura:</label>
+                <input type="number" class="form-control" id="A2" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="A3" class="form-label">Tercera Nota de Arte y Cultura:</label>
+                <input type="number" class="form-control" id="A3" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="A4" class="form-label">Cuarta Nota de Arte y Cultura:</label>
+                <input type="number" class="form-control" id="A4" autofocus required placeholder="Ingrese la nota" max="20" min="0"><br>
+            </div>
+            <div class="col-md-3">
+                <label for="V1" class="form-label">Primera Nota de Valores:</label>
+                <input type="number" class="form-control" id="V1" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="V2" class="form-label">Segunda Nota de Valores:</label>
+                <input type="number" class="form-control" id="V2" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="V3" class="form-label">Tercera Nota de Valores:</label>
+                <input type="number" class="form-control" id="V3" autofocus required placeholder="Ingrese la nota" max="20" min="0">
+            </div>
+            <div class="col-md-3">
+                <label for="V4" class="form-label">Cuarta Nota de <br>Valores:</label>
+                <input type="number" class="form-control" id="V4" autofocus required placeholder="Ingrese la nota" max="20" min="0"><br>
+            </div>
+        </form>
+        <table class="boton mb-5">
+            <tr>
+                <td><button id="click" type="button" class="btn btn-dark text-center">Ver Promedios</button></td>
+            </tr>
+        </table><br>
+        <form id="resultado" class="row g-2 text-center">
+            <div class="col-md-12"><strong id="Nombre-Apellido"></strong></div>
+            <div id="resultadoMa" class="col-md-6"></div>
+            <div id="resultadoCo" class="col-md-6"></div>
+            <div id="resultadoHi" class="col-md-6"></div>
+            <div id="resultadoCi" class="col-md-6"></div>
+            <div id="resultadoEd" class="col-md-6"></div>
+            <div id="resultadoIn" class="col-md-6"></div>
+            <div id="resultadoAr" class="col-md-6"></div>
+            <div id="resultadoVa" class="col-md-6"></div>
+            <div class="col-md-12"><strong id="resultadoFinal"></strong></div>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js-registro de notas/promedios.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

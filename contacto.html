@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo-contacto.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1 id="titulo" class="text-center">CONTACTO</h1><br>
+    </div>
+    <form class="row g-3" id="contenedor" style='font-weight: bold; color: #b1ebf5;'>
+        <div class="col-md-6">
+            <label for="name" class="form-label">Nombres:</label>
+            <input type="text" class="form-control" id="name" required pattern="[A-Za-z]+" style='border: solid 1.5px;'>
+        </div>
+        <div class="col-md-6">
+            <label for="last-name" class="form-label">Apellidos:</label>
+            <input type="text" class="form-control" id="last-name" required pattern="[A-Za-z]+" style='border: solid 1.5px;'>
+        </div>
+        <div class="col-md-7">
+            <label for="inputState" class="form-label">Grado:</label>
+            <select id="inputState" class="form-select" style='border: solid 1.5px;'>
+                <option selected>Seleccione una opción</option>
+                <option value="1">Primero</option>
+                <option value="2">Segundo</option>
+                <option value="3">Tercero</option>
+                <option value="4">Cuarto</option>
+                <option value="5">Quinto</option>
+                <option value="6">Sexto</option>  
+            </select>
+            <div id="emailHelp" class="form-text">Si pertenece al colegio.</div> 
+        </div>
+
+        <div class="col-md-5">
+            <div class="form-check">
+                <br>
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style='border: solid 1.5px;'>
+                <label class="form-check-label" for="flexRadioDefault1">
+                Primaria
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" style='border: solid 1.5px;'>
+                <label class="form-check-label" for="flexRadioDefault2">
+                    Secundaria
+                </label>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <label for="inputEmail4" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="inputEmail" required style='border: solid 1.5px;'>
+        </div>
+        <div class="col-md-4">
+            <label for="inputPassword4" class="form-label">Teléfono:</label>
+            <input type="text" class="form-control" id="telefono" maxlength="9" required style='border: solid 1.5px;'>
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px; border: solid 1.5px;" required ></textarea>
+            <label for="floatingTextarea2" style=' color: #99A3A4;'>Mensaje:</label>
+        </div>
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required style='border: solid 1.5px;'>
+                <label class="form-check-label" for="invalidCheck2" required >
+                Acepto el uso de mis datos por parte de la institución.<br><br>
+                </label>
+            </div>
+        </div>
+        <div id="resultado" autofocus class="form-control">
+            <div class="mx-auto col-md-12 text-center"><strong id="mensaje1"></strong></div>
+            <div id="mensaje2" class="mx-auto col-md-10 text-center"></div>
+            <div id="mensaje3" class="mx-auto col-md-10 text-center"></div>
+            <div id="mensaje4" class="mx-auto col-md-10 text-center"></div>
+            <div id="mensaje5" class="mx-auto col-md-10 text-center"></div>
+        </div>
+        <br><br><button type="button" class="btn btn-primary" id="boton">Enviar</button>
+    </form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js-contacto/js-contacto.js"></script>
+</body>
+</html>
+
+
+
+
+   

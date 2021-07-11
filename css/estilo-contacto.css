@@ -1,0 +1,37 @@
+body{
+    background-color: #2c59ad;
+}
+#contenedor{
+    background-color: #2c59ad;
+    margin: auto 16em;
+}
+#titulo{
+    background-color: #000405;
+    color: #b1ebf5;
+    margin: auto 2em;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    border: solid 2.5px #b1ebf5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px
+}
+#boton{
+    background-color: #1d1d1de1;
+    width: 10em;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 10px;
+    border: black
+}
+#image{
+    float: right;
+    margin-top: -40em;
+}
+#resultado{
+    height: 140px;
+    border: solid 1.5px;
+    margin: auto;
+    margin-bottom: 3em;
+}        

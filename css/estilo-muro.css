@@ -1,0 +1,61 @@
+
+body{
+    font-family: 'Monstserrat', sans-serif;
+    overflow-x: hiden;
+    background-color: rgb(231, 90, 119);
+}
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+@media(max-width:768px){
+    #intro,#crear  {
+        width: 90% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+    #crear p {
+        display: none;
+    }
+    #bg-contacto{
+        
+        top: -110px;
+    }
+}
+
+@media (max-width:576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center  !important;
+    }
+}
+
+
+#contenedor-formulario{
+    background: #f77206;
+    border-radius: 5px;
+    max-width: 500px;
+}
+#titulo-formulario{
+    color: rgb(24, 7, 100);
+}
+
+footer{
+    background: rgb(138, 58, 131);
+    min-height: 100px;
+}
+footer p{
+    color: rgb(15, 8, 78);
+    text-align: center;
+}
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: rgb(247, 244, 248);
+}
+.fw-bold {
+    color: crimson;
+}

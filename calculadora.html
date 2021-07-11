@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora escolar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.esm.min.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/estilos-calculadora.css">
+
+</head>
+<body>
+    <br>
+    <div class="container ">
+        <div class="row">
+            <div class="col-12 text-center" >
+                <br>
+                <h1>BIENVENIDO  A TU CALCULADORA ESCOLAR</h1>
+            </div>
+        </div>
+        <div class="position-relative m-4">
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <button type="button" class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-primary rounded-pill" style="width: 2rem; height:2rem; background: red; border: yellow;">1</button>
+            <button type="button" class="position-absolute top-0 start-50 translate-middle btn btn-sm btn-primary rounded-pill" style="width: 2rem; height:2rem; background: red; border: yellow;">2</button>
+            <button type="button" class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-secondary rounded-pill" style="width: 2rem; height:2rem; background: red;border: yellow;">3</button>
+          </div>
+        <div class = "row ">
+            <div>
+
+                <span class="d-block p-1  text-white">" Los números perfectos, como los hombres perfectos, son muy extraños " Descartes</span>
+                
+                <img class = "hospi"src = "https://www.ejemplosde.com/images/uploads/matematicas/suma.png?1560785365191" width = "320px" height = "120px">
+                <img class = "hospi"src = "https://arbolabc.nyc3.cdn.digitaloceanspaces.com/New-Math-Area-Icons/Juegos_de_restas.jpg" width = "320px" height = "120px"> 
+                <img class = "hospi"src = "https://i.ytimg.com/vi/T_xPg35MXo0/maxresdefault.jpg" width = "320px" height = "120px"> 
+                <img class = "hospi"src = "https://i.pinimg.com/originals/d9/2a/62/d92a62fae4212024adc8a31ff80da3e0.jpg" width = "320px" height = "120px"> 
+                <span class="d-block p-1 bg-dark text-white" >" Las matemáticas puras son, en su forma, la poesía de las ideas lógicas " Albert Einstein. </cursive></span> 
+    
+    
+        </div>
+    </div>
+    <br>
+    <div class = "l">
+    <input type="number" id="n1" placeholder="Ingresa numero">
+    <input type="number" id="n2" placeholder="Ingresa numero ">
+    <button id="suma">+</button>
+    <button id="resta">-</button>
+    <button id="multiplicacion">*</button>
+    <button id="division">/</button>
+    <button id="calcular">Calcular</button> </div>
+    <br>
+    <br>
+    <h1 id = "o"> RESPUESTA </h1>
+    <br>
+    <div id = "r"></div> 
+        <h2 class = "w"> Reflexion sobre  las matematicas </h2>
+      
+        <p>
+            Decía Carnap: “No existen diversas ciencias con fuentes de conocimientos distintos, sino que existe la Ciencia. Todos los conocimientos hallan en ella su sitio, y todas son de la misma naturaleza, su diversidad aparente no es sino el efecto de la diversidad de lenguajes empleados por las diferentes ramas del saber”. Con respecto a las Matemáticas representan 
+             una rama del conocimiento acerca del cual todo el mundo tiene una idea formada.
+        </p>
+      
+        <p>
+            No obstante, esta idea no es la misma para todo el mundo. Para quienes tan sólo recuerdan la matemática que aprendieron en la escuela primaria, la matemática se halla integrada 
+            por los cálculos aritméticos comunes y por los nombres y las propiedades de algunas figuras geométricas.
+        </p>
+      
+        <p>
+            Aquellos que cursaron estudios superiores incluyen en su concepto de matemática otros contenidos útiles para su profesión, como bien pueden serlo la estadística, el cálculo infinitesimal,
+             o ciertas teorías, como la teoría de la decisión o la teoría de la información.
+        </p>
+      </div>
+      <br>
+
+    <section class = "m-5 "> <!-- colocar el acordeon  -->
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item" id = "qc">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" id="as" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Juego de palabras
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <form id="joke-form">
+                    <label>
+                       <Br>
+                        <span class="scrambled">SFTOREAW</span>
+                        <br><br>
+                        <input type="text" size="16">
+                    </label>
+                    <button class = "submit" type="submit">Click</button>
+                </form>
+                <div id="result"> </div>
+                <form id="ja">
+                    <label>
+                        <Br>
+                        <span class="s">MLUTIPILAC</span>
+                        <br><br>
+                        <input type="text" size="16">
+                    </label>
+                    <button class = "casa" type="submit">Click</button>
+                </form>
+                <br>
+                <div id="re"> </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" id = "qa">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" id="af" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  ¿Sabías que?...
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  3. <strong>En 1959, una bibliotecaria de Carolina del Sur llamó a la Policía porque un niño negro de 9 años no quería marcharse. El niño obtuvo después un doctorado en Física por el MIT y murió en 1986, como uno de los astronautas a bordo del
+                  1. En 1998, Sony tuvo la oportunidad de comprar los derechos de casi todos los personajes de Marvel por 25 millones de dólares. Optaron por no hacerlo, salvo por Spider-Man, que compraron por 7 millones.
+                   ¿El motivo? No consideraban que el resto de personajes de Marvel fuesen ‘relevantes’ </strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" id = "qb">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed"  id="ag" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  ¿Sabías que?...
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  3. <strong>En 1959, una bibliotecaria de Carolina del Sur llamó a la Policía porque un niño negro de 9 años no quería marcharse. El niño obtuvo después un doctorado en Física por el MIT y murió en 1986, como uno de los astronautas a bordo del
+                   transbordador espacial Challenger. La biblioteca que en el pasado no le dejaba coger libros ostenta ahora su nombre, Ronald McNair.</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </section>
+      
+
+      <script>
+        let op;
+        document.querySelector('#suma').addEventListener('click', () =>{
+            op = '+';
+        });
+        document.querySelector('#resta').addEventListener('click', () =>{
+            op = '-';
+        });
+        document.querySelector('#multiplicacion').addEventListener('click', () =>{
+            op = '*';
+        });
+        document.querySelector('#division').addEventListener('click', () =>{
+            op = '/';
+        });
+    
+        document.querySelector('#calcular').addEventListener('click', () =>{
+            const n1 = parseInt(document.querySelector('#n1').value);
+            const n2 = parseInt(document.querySelector('#n2').value);
+            //const op = document.querySelector('#op').value;
+            let r;
+            if(op == '+'){
+                r = n1 + n2;
+            }else if( op == '-'){
+                r = n1 - n2;
+            }else if(op == '*'){
+                r = n1 * n2;
+            }else if(op == '/'){
+                r = n1 / n2;
+            }
+            document.querySelector('#r').innerHTML = r;
+        });
+        $("#joke-form").on("submit", function(event) {
+        event.preventDefault();
+        
+        var $input = $(this).find('input');
+         var input = $input.val();
+        if (input === "SOFTWARE") {
+            $("#result").text("Bien hecho, sigue asi!");
+        } 
+        else {
+            $("#result").text("Lo siento,hazlo de nuevo!");}});
+    
+    
+    $("#ja").on("submit", function(event) {
+        event.preventDefault();
+        
+        var $input = $(this).find('input');
+         var input = $input.val();
+        if (input === "MULTIPLICA") {
+            $("#re").text("Felicitaciones, Tu respuesta es correcta");
+        } 
+        else {
+            $("#re").text("Intentalo de nuevo, tu puedes!");}});
+    
+    </script>          
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</body>
+</html>
